@@ -1,0 +1,29 @@
+body {
+    
+        background-image: url("https://previews.123rf.com/images/julietphotography/julietphotography1801/julietphotography180100061/94606380-marble-subtle-pink-and-white-pretty-texture-background.jpg");
+        background-repeat: no-repeat;
+      }
+      
+
+    
+  
+  
+  h1 {
+    color: blue;
+    text-align: center;
+    font-family: cursive;
+  }
+  
+  p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
+  
+  
