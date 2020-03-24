@@ -1,24 +1,58 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet">
+    <head>
+        <title>Taye's Creation</title>
+​        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link rel="stylesheet" href="landing.css">
+        
+    </head>
+    <body>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JCGjvs469bM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+​
+        <div id="logo-image">
     
-<title>Taye's Creation</title>
-</head>
-<body>
-<header>
-    <img class="logo-image"
-    src="https://i.pinimg.com/600x315/ed/cf/a6/edcfa64cbfb602a9e979e8011aa1e7e1.jpg">
-<nav>
-    <ul>
-        <li>Bob cuts </li>
-        <li>Sew-In </li>
-        <li>Wash & Dry</li>
-        <li>Braids </li>
-    </ul>
-</nav>
-
-</header>
-</body>
+            <header id="header"> 
+                <div class="logo">
+                    <img
+                    id="header-img"
+                    src="data:image/png;base64,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"
+                    alt="Come get styled by Taye"
+                    />
+                </div>
+​
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#features">Sew-In</a></li>
+                        <li><a class="nav-link" href="#how-it-works">Bob Cuts</a></li>
+                        <li><a class="nav-link" href="#pricing">Wash & Dry</a></li>
+                    </ul>
+                </nav>
+            </header>
+​
+        <section> 
+            <form id="form" action="">
+                <input 
+                    name="email"
+                    id=""
+                    type=""
+                    placheolder=""
+                    required
+                />
+                <input id="submit" type="" value="" class="btn" />
+            </form>
+        </section>
+​
+        </div>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
