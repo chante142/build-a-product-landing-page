@@ -2,27 +2,43 @@ body {
     
         background-image: url("https://previews.123rf.com/images/julietphotography/julietphotography1801/julietphotography180100061/94606380-marble-subtle-pink-and-white-pretty-texture-background.jpg");
         background-repeat: no-repeat;
+        background:pink
+          
       }
-      
-
-    
-  
-  
-  h1 {
-    color: blue;
-    text-align: center;
-    font-family: cursive;
-  }
-  
-  p {
+       p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+    font-size: 25px;
+    text-align: center;
   }
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 25%;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    background-color:grey;
+    text-align: center;
+    font-family: cursive;
+  }
+
+ li{
+     list-style:none ;
+ }
+  
+  
+  #header {
+    top: 0;
+    position: fixed;
+    min-height: 30px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   
